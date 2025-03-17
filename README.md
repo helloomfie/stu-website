@@ -33,9 +33,9 @@ add your own profile images by uncommenting the img tags
 expand the grid with additional cards by following the existing pattern
 
 ## screenshots
-![lil-stu](https://github.com/helloomfie/stu-website/blob/main/screenshots/lil-stu.png?raw=true)
+![lil-stu](https://github.com/helloomfie/stu-website/blob/main/lil-stu.png?raw=true)
 
-![scientist-stu](https://github.com/helloomfie/stu-website/blob/main/screenshots/scientist-stu.png?raw=true)
+![scientist-stu](https://github.com/helloomfie/stu-website/blob/main/scientist-stu.png?raw=true)
 
 ## license
 do whatever you want with this, just give credit to stu the quantum cat
