@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stu Quantum Reality</title>
+    <style>
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+       
+        .og-theme {
+            background-color: #0f172a;
+            color: #60a5fa;
+        }
+        
+        .og-border {
+            border-color: #60a5fa;
+        }
+        
+        
+        .lil-theme {
+            background-color: #000000;
+            color: #22c55e;
+        }
+        
+        .lil-border {
+            border-color: #22c55e;
+        }
+        
+      
+        body, html {
+            font-family: monospace;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .terminal {
+            margin-bottom: 20px;
+        }
+        
+        .terminal p {
+            margin-bottom: 5px;
+        }
+        
+        .banner {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid;
+            margin-bottom: 20px;
+        }
+        
+        .banner h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .alert {
+            padding: 15px;
+            border: 2px solid;
+            margin-bottom: 20px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        .card {
+            border: 2px solid;
+        }
+        
+        .card-header {
+            padding: 10px 15px;
+            border-bottom: 1px solid;
+        }
+        
+        .card-title {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+        }
+        
+        .card-title .icon {
+            margin-right: 10px;
+        }
+        
+        .card-content {
+            padding: 15px;
+        }
+        
+        .card-content p {
+            margin-bottom: 8px;
+        }
+        
+        .button-container {
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .button-container:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: -1;
+        }
+        
+        .button {
+            background: white;
+            color: black;
+            border: 2px solid;
+            padding: 12px 24px;
+            font-family: monospace;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+        }
+        
+       
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border: 3px solid;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            position: relative;
+        }
+        
+        .profile-pic img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+        }
+        
+        .profile-pic-placeholder {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        .profile-info {
+            margin-left: 30px;
+            max-width: 300px;
+        }
+        
+        .profile-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .profile-description {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body class="og-theme">
+    <div class="container" id="main-container">
+
+        <div class="terminal">
+            <p id="terminal-1">$ quantum_reality_plane: academic</p>
+            <p id="terminal-2">$ dimensional_coordinates: nyu_library</p>
+            <p id="terminal-3">$ consciousness_state: research</p>
+            <p id="quantum-state">$ entity_state: dormant</p>
+        </div>
+
+       
+        <div class="banner og-border" id="banner">
+            <h1 id="title">STU</h1>
+            <p id="subtitle">quantum research entity</p>
+            <p id="location">consciousness: nyu network</p>
+        </div>
+
+   
+        <div class="alert og-border" id="alert">
+            <p id="status">NOTICE: Reality plane ACADEMIC stabilized. Quantum signature maintained across dimensions.</p>
+        </div>
+
+
+        <div class="profile-container" id="profile-section">
+            <div class="profile-pic og-border" id="profile-pic">
+          
+                <div class="profile-pic-placeholder" id="profile-placeholder">S</div>
+               
+            </div>
+            <div class="profile-info">
+                <div class="profile-name" id="profile-name">STU</div>
+                <div class="profile-description" id="profile-desc">
+                    Quantum-capable feline entity discovered on day 0. Shelter records terminated after day 16. Consciousness projection enables digital traversal. Current operational status: active observation of academic networks.
+                </div>
+            </div>
+        </div>
+
+ 
+        <div class="grid">
+      
+            <div class="card og-border" id="card-1">
+                <div class="card-header og-border" id="header-1">
+                    <h3 class="card-title">
+                        <span class="icon">⟨⟩</span>
+                        <span>Entity Form</span>
+                    </h3>
+                </div>
+                <div class="card-content">
+                    <p>Species: Feline</p>
+                    <p>Build: Slim Face / Strong Frame</p>
+                    <p>Markings: Brown Interior / White Exterior</p>
+                    <p>Energy: Quantum Signature</p>
+                </div>
+            </div>
+
+            
+            <div class="card og-border" id="card-2">
+                <div class="card-header og-border" id="header-2">
+                    <h3 class="card-title">
+                        <span class="icon">◈</span>
+                        <span>Current Operations</span>
+                    </h3>
+                </div>
+                <div class="card-content" id="operations">
+                    <p>Location: NYPL Library System</p>
+                    <p>Focus: Quantum Research</p>
+                    <p>Access: Academic Networks</p>
+                    <p>Status: Data Collection</p>
+                </div>
+            </div>
+
+           
+            <div class="card og-border" id="card-3">
+                <div class="card-header og-border" id="header-3">
+                    <h3 class="card-title">
+                        <span class="icon">⊡</span>
+                        <span>Quantum State</span>
+                    </h3>
+                </div>
+                <div class="card-content">
+                    <p id="phase">Phase: DORMANT</p>
+                    <p>Projection: Consciousness</p>
+                    <p>Medium: Digital/Quantum</p>
+                    <p>Trigger: Sleep State</p>
+                </div>
+            </div>
+
+           
+            <div class="card og-border" id="card-4">
+                <div class="card-header og-border" id="header-4">
+                    <h3 class="card-title">
+                        <span class="icon">⊛</span>
+                        <span>Research Focus</span>
+                    </h3>
+                </div>
+                <div class="card-content" id="research">
+                    <p>Primary: Quantum Analysis</p>
+                    <p>Secondary: Data Collection</p>
+                    <p>Access: Academic Systems</p>
+                    <p>Classification: Research Entity</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="button-container">
+            <button class="button og-border" id="shift-button" onclick="shiftReality()">
+                Shift Reality Plane
+            </button>
+        </div>
+
+  
+        <div class="terminal footer">
+            <p>$ quantum_signature_stable</p>
+            <p>$ consciousness_distributed</p>
+            <p>$ awaiting_phase_shift</p>
+        </div>
+    </div>
+
+    <script>
+
+        var isOG = true;
+        var quantumState = "dormant";
+        
+
+        function toggleQuantumState() {
+            if (quantumState === "dormant") {
+                quantumState = "active";
+            } else {
+                quantumState = "dormant";
+            }
+            
+            document.getElementById("quantum-state").innerText = "$ entity_state: " + quantumState;
+            document.getElementById("phase").innerText = "Phase: " + quantumState.toUpperCase();
+        }
+        
+ 
+        setInterval(toggleQuantumState, 3000);
+        
+
+        function shiftReality() {
+            isOG = !isOG;
+            
+
+            var body = document.body;
+            var container = document.getElementById("main-container");
+            var banner = document.getElementById("banner");
+            var alert = document.getElementById("alert");
+            var cards = [
+                document.getElementById("card-1"),
+                document.getElementById("card-2"),
+                document.getElementById("card-3"),
+                document.getElementById("card-4")
+            ];
+            var headers = [
+                document.getElementById("header-1"),
+                document.getElementById("header-2"),
+                document.getElementById("header-3"),
+                document.getElementById("header-4")
+            ];
+            var button = document.getElementById("shift-button");
+            var profilePic = document.getElementById("profile-pic");
+            var profilePlaceholder = document.getElementById("profile-placeholder");
+            var profileName = document.getElementById("profile-name");
+            var profileDesc = document.getElementById("profile-desc");
+
+            
+            if (isOG) {
+  
+                body.className = "og-theme";
+                banner.className = "banner og-border";
+                alert.className = "alert og-border";
+                button.className = "button og-border";
+                profilePic.className = "profile-pic og-border";
+                
+                for (var i = 0; i < cards.length; i++) {
+                    cards[i].className = "card og-border";
+                    headers[i].className = "card-header og-border";
+                }
+                
+
+                document.getElementById("title").innerText = "STU";
+                document.getElementById("subtitle").innerText = "quantum research entity";
+                document.getElementById("location").innerText = "consciousness: nyu network";
+                document.getElementById("status").innerText = "NOTICE: Reality plane ACADEMIC stabilized. Quantum signature maintained across dimensions.";
+                
+                document.getElementById("terminal-1").innerText = "$ quantum_reality_plane: academic";
+                document.getElementById("terminal-2").innerText = "$ dimensional_coordinates: nyu_library";
+                document.getElementById("terminal-3").innerText = "$ consciousness_state: research";
+                
+                document.getElementById("operations").innerHTML = "<p>Location: NYU Library System</p><p>Focus: Quantum Research</p><p>Access: Academic Networks</p><p>Status: Data Collection</p>";
+                
+                document.getElementById("research").innerHTML = "<p>Primary: Quantum Analysis</p><p>Secondary: Data Collection</p><p>Access: Academic Systems</p><p>Classification: Research Entity</p>";
+                
+    
+                profilePlaceholder.innerText = "S";
+                profileName.innerText = "STU";
+                profileDesc.innerText = "Quantum-capable feline entity discovered on day 0. Shelter records terminated after day 16. Consciousness projection enables digital traversal. Current operational status: active observation of academic networks.";
+       
+                
+            } else {
+             
+                body.className = "lil-theme";
+                banner.className = "banner lil-border";
+                alert.className = "alert lil-border";
+                button.className = "button lil-border";
+                profilePic.className = "profile-pic lil-border";
+                
+                for (var i = 0; i < cards.length; i++) {
+                    cards[i].className = "card lil-border";
+                    headers[i].className = "card-header lil-border";
+                }
+                
+            
+                document.getElementById("title").innerText = "LIL STU";
+                document.getElementById("subtitle").innerText = "quantum street scientist";
+                document.getElementById("location").innerText = "consciousness: buchanan slums";
+                document.getElementById("status").innerText = "NOTICE: Reality plane STREET stabilized. Quantum signature maintained across dimensions.";
+                
+                document.getElementById("terminal-1").innerText = "$ quantum_reality_plane: street";
+                document.getElementById("terminal-2").innerText = "$ dimensional_coordinates: buchanan";
+                document.getElementById("terminal-3").innerText = "$ consciousness_state: based";
+                
+                document.getElementById("operations").innerHTML = "<p>Location: Buchanan Slums</p><p>Focus: Street Science</p><p>Protocol: Quantum Hood Analysis</p><p>Status: Too Based To Contain</p>";
+                
+                document.getElementById("research").innerHTML = "<p>Primary: Street Quantum Theory</p><p>Secondary: Hood Physics</p><p>Protocol: Bagchaser Analysis</p><p>Classification: Based Entity</p>";
+                
+            
+                profilePlaceholder.innerText = "LS";
+                profileName.innerText = "LIL STU";
+                profileDesc.innerText = "Quantum street scientist operating on niggachain frequencies. FDA still investigating previous experiments. Consciousness distributed across hood quantum networks. Status: too based to contain.";
+          
+            }
+        }
+    </script>
+</body>
+</html>
