@@ -41,4 +41,4 @@ expand the grid with additional cards by following the existing pattern
 do whatever you want with this, just give credit to stu the quantum cat
 
 ## contact
-find stu in either the library system or the slums, depending on which reality plane you're currently in
+find stu in either the library or the hood, depending on which reality plane you're currently in
